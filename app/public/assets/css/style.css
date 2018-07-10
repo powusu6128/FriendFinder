@@ -1,8 +1,4 @@
-.navbar {
-    -webkit-transition: all 3s;
-    -moz-transition: all 3s;
-    transition: all 3s;
-}
+
 
 .logo {
     -webkit-transition: all 3s;
@@ -16,34 +12,16 @@
     transition: all 3s;
 }
 
-.portfolio-flex-container {
-    -webkit-transition: all 2s;
-    -moz-transition: all 2s;
-    transition: all 2s;
-}
-
-.portfolio-flex-container[data-emergence=hidden] {
-    opacity: 0;
-}
-
-.portfolio-flex-container[data-emergence=visible] {
-    opacity: 1;
-}
-
 .logo-lg {
-    margin: -87px 0 0px -160px;
+    margin: -50px 0 0px -160px;
     z-index: 100;
-    width: 190px;
+    width: 220px;
     padding: 5px;
 }
 
 .logo-sm {
-    margin: -64px 0 0px -160px;
-    /* play with these to position the image */
-    /*position:absolute;*/
     z-index: 100;
     width: 156px;
-    /*background-color: #fff;*/
     padding: 5px;
 }
 
@@ -70,7 +48,7 @@
 }
 
 #ff-logo {
-  width: 190px;
+  width: 100px;
 }
 
 .navbar-inverse .navbar-brand {
@@ -87,7 +65,6 @@
 .navbar-inverse {
     background-image: none;
     background-color: #0000ff;
-    /* border-color: #f47d30; */
 }
 
 .dropdown-menu>li>a {
@@ -111,11 +88,6 @@
     text-shadow: none;
 }
 
-/* .navbar-inverse .navbar-toggle:focus,
-.navbar-inverse .navbar-toggle:hover {
-    background-color: #f47d30;
-} */
-
 #matchImg, #yourImg {
     width: 250px;
     border: 5px solid #ddd;
@@ -137,18 +109,16 @@ html {
 }
 
 body {
-    /* Margin bottom by footer height */
+  
     padding-top: 120px;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
     background-color: #f0f8ff;
-    /*background-image: url("../images/ricepaper.png");*/
 }
 
 .footer {
     position: static;
     bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
     height: 60px;
     background-color: #0000ff;
     border-bottom: 20px solid #0000ff;

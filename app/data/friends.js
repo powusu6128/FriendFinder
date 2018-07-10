@@ -46,7 +46,12 @@ var friendsList = [
 		name: 'Sprock',
 		photo: 'https://uproxx.files.wordpress.com/2015/08/instagram-spock.png',
 		scores: [1,3,5,2,4,4,2,4,3,1]
-	}
+	},
+	{
+		name: 'Manpassman',
+		photo: 'https://images.sk-static.com/images/media/profile_images/artists/3821916/huge_avatar',
+		scores: [1,3,5,2,4,4,2,4,3,1]
+    }
 ]
 
 const compatibility = (arr1, arr2) => {
@@ -62,7 +67,5 @@ const findMatch = newSet => {
 const addToList = newFriend => friendsList.push(newFriend);
 
 module.exports = {
-	list: friendsList,
-	findMatch,
-	addToList
+	list: friendsList, findMatch, addToList
 }

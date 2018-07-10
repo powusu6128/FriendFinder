@@ -7,7 +7,7 @@ var app = express();
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("./app/public"));
 
-//Make public directroy visible to for the home.html
+//Make public directroy visible to for the home.html and survey.html
 app.use(express.static(path.join(__dirname, './app/public')));
 
 
